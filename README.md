@@ -34,7 +34,7 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407VG_PCA21125_SPI_R
 	1. You need to modify the name of "Chip-Select pin CS" on your project to be "PCA21125_SPI_CS".
 	2. You must modify the SPI parameters as shown in image below.
 	\
-	![SPI_Configuration](![SPI_RTC_Config](https://user-images.githubusercontent.com/16566502/217270953-d0f2ed4d-9901-414c-8c11-6426b62fd25a.png))
+	(![SPI_RTC_Config](https://user-images.githubusercontent.com/16566502/217271789-834afec2-b3bb-41af-882d-fa5258ebfe6b.png))
 	3. Other parameters will be automatically modified when generates the code.
 
 2. This Board has an optional LED and Buzzer with the following pins:
