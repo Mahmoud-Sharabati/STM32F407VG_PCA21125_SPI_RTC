@@ -41,19 +41,21 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407VG_PCA21125_SPI_R
    |------------|---------|
    | PB0	| PE2	  |
 
- ### Use INA229 Driver instruction
-1. Define your INA299_Readings variable to be used to store the INA229 readings. The driver project uses variable nemed "INA299_Values"
+ ### Use PCA21125 Driver instruction
+1. Define your RTC_Data _RTC_R_DATA and RTC_Data _RTC_W_DATA variables to be used to Set and Store the readings.
 
-2. Initialize the INA229 driver using: INA229_Init(SPI_HandleTypeDef * hspi, TIM_HandleTypeDef *htim)
+2. Initialize the PCA21125RTC driver using: PCA21125RTC_Init(SPI_HandleTypeDef *hspi, ITStatus INT_Status)
 
 	Parameters:
-   | hspi | htim |
+   | hspi | INT_Status |
    |------------|--------- |
-   | Connected SPI_HandleTypeDef | Used TIM_HandleTypeDef for delay |
+   | Connected SPI_HandleTypeDef | Status of the RTC INT pin |
    
-3. Get the INA229 readings by Get_INA299_Readings() function. The diver project uses the "INA299_Values" variable to store reading values into. 
+3. Fill the Current time enum as an initial values. The diver project uses the "_RTC_W_DATA" variable for the initial values.  
+4. Set the initial RTC value by using RTC_SetTime(RTC_Data* _rtc_data) 
+5. Get the RTC readings by PCA21125RTC_GetTime(RTC_Data* _rtc_data) function. The diver project uses the "_RTC_R_DATA" variable to store reading values into. 
 
-_NOTE: The INA229 readings in this project can be monitored using the STM32 debugger.
+_NOTE: The PCA21125RTC readings in this project can be monitored using the STM32 debugger.
 
 ## Credits
 This driver is based on the generated code by the SysConfig tool for the TI Sensors. It can be found [here](https://www.ti.com/tool/SYSCONFIG).
