@@ -19,22 +19,22 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407VG_PCA21125_SPI_R
 4. Generate the code and open the project in your preferred development environment.
 5. Build and upload the code to your device.
 
-* OR: you can use this example by modifying the SPI Handler and Chip-Select pin as your connection.
+* OR: you can use this example by modifying the SPI Handler and Chip-Select pin as your connection as follow.
 
 ## Usage
 
 ### Before using SPI CAN Driver
 1. Modify the Hardware Configuration and Pins using CubeMX software
-    This driver use SPI2 with the following pins:
-    | SPI2_CS       | SPI2_SCK    | SPI2_MISO   |SPI2_MOSI   |
+    This driver use SPI1 with the following pins:
+    | SPI1_CS       | SPI1_SCK    | SPI1_MISO   |SPI1_MOSI   |
     | ------------- |:-----------:|:-----------:|:----------:|
-    | PE9	    | PB10	  | PC2        | PC3	     |
+    | PC5	    | PA5	  | PA6        | PA7	     |
 
 	#### Notes:																	
-	1. You need to modify the name of "Chip-Select pin CS" on your project to be "INA229_SPI_CS".
+	1. You need to modify the name of "Chip-Select pin CS" on your project to be "PCA21125_SPI_CS".
 	2. You must modify the SPI parameters as shown in image below.
 	\
-	![SPI_Configuration](https://user-images.githubusercontent.com/16566502/215982637-edbc0245-69df-4847-aca3-c270d2754e99.png)
+	![SPI_Configuration](![SPI_RTC_Config](https://user-images.githubusercontent.com/16566502/217270953-d0f2ed4d-9901-414c-8c11-6426b62fd25a.png))
 	3. Other parameters will be automatically modified when generates the code.
 	4. This driver uses TIMER6 for delay purpose. Any other timer can be used after its configuration is done.
 
