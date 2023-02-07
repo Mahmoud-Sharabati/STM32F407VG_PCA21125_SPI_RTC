@@ -36,7 +36,6 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407VG_PCA21125_SPI_R
 	\
 	![SPI_Configuration](![SPI_RTC_Config](https://user-images.githubusercontent.com/16566502/217270953-d0f2ed4d-9901-414c-8c11-6426b62fd25a.png))
 	3. Other parameters will be automatically modified when generates the code.
-	4. This driver uses TIMER6 for delay purpose. Any other timer can be used after its configuration is done.
 
 2. This Board has an optional LED and Buzzer with the following pins:
    | LED	| Buzzer  |
