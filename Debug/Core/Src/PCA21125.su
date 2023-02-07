@@ -1,0 +1,6 @@
+../Core/Src/PCA21125.c:19:6:PCA21125RTC_Init	24	static
+../Core/Src/PCA21125.c:50:6:PCA21125RTC_WriteValue	24	static
+../Core/Src/PCA21125.c:73:6:RTC_SetTime	24	static
+../Core/Src/PCA21125.c:96:6:PCA21125RTC_GetTime	32	static
+../Core/Src/PCA21125.c:126:9:bcd2bin	16	static
+../Core/Src/PCA21125.c:130:6:RTC2ValidTime	24	static
