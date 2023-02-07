@@ -19,7 +19,7 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407VG_PCA21125_SPI_R
 4. Generate the code and open the project in your preferred development environment.
 5. Build and upload the code to your device.
 
-__OR: you can use this example by modifying the SPI Handler and Chip-Select pin as your connection as follow.
+**OR**: you can use this example by modifying the SPI Handler and Chip-Select pin as your connection as follow.
 
 ## Usage
 
