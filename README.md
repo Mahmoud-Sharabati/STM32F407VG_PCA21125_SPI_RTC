@@ -64,5 +64,5 @@ Contributions are welcome in the form of bug reports, feature requests, or pull 
 This driver is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
-[PCA21125 datasheet](https://www.nxp.com/docs/en/data-sheet/PCA21125.pdf).
+[PCA21125 datasheet](https://www.nxp.com/docs/en/data-sheet/PCA21125.pdf).  
 [STM32F407 datasheet](https://www.st.com/resource/en/datasheet/stm32f407vg.pdf).
