@@ -55,7 +55,7 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407VG_PCA21125_SPI_R
 4. Set the initial RTC value by using `RTC_SetTime(RTC_Data* _rtc_data)`
 5. Get the RTC readings by `PCA21125RTC_GetTime(RTC_Data* _rtc_data)` function. The diver project uses the `_RTC_R_DATA` variable to store reading values into. 
 
-_NOTE: The PCA21125RTC readings in this project can be monitored using the STM32 debugger.
+**NOTE: The PCA21125RTC readings in this project can be monitored using the STM32 debugger.**
 
 ## Contributing
 Contributions are welcome in the form of bug reports, feature requests, or pull requests. If you would like to contribute to the project, please fork this repository, make your changes, and submit a pull request.
