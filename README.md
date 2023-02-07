@@ -31,7 +31,7 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407VG_PCA21125_SPI_R
     | PC5	    | PA5	  | PA6        | PA7	     |
 
 	#### Notes:																	
-	1. You need to modify the name of "Chip-Select pin CS" on your project to be "PCA21125_SPI_CS".
+	1. You need to modify the name of "Chip-Select pin CS" on your project to be `PCA21125_SPI_CS`.
 	2. You must modify the SPI parameters as shown in image below.  
 	![SPI_RTC_Config](https://user-images.githubusercontent.com/16566502/217271789-834afec2-b3bb-41af-882d-fa5258ebfe6b.png)  
 	3. Other parameters will be automatically modified when generates the code.
@@ -52,8 +52,8 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407VG_PCA21125_SPI_R
    | Connected SPI_HandleTypeDef | Status of the RTC INT pin |
    
 3. Fill the Current time enum as an initial values. The diver project uses the *_RTC_W_DATA* variable for the initial values.  
-4. Set the initial RTC value by using *RTC_SetTime(RTC_Data* _rtc_data)
-5. Get the RTC readings by *PCA21125RTC_GetTime(RTC_Data* _rtc_data) function. The diver project uses the *_RTC_R_DATA* variable to store reading values into. 
+4. Set the initial RTC value by using `RTC_SetTime(RTC_Data* _rtc_data)`
+5. Get the RTC readings by `PCA21125RTC_GetTime(RTC_Data* _rtc_data)` function. The diver project uses the `_RTC_R_DATA` variable to store reading values into. 
 
 _NOTE: The PCA21125RTC readings in this project can be monitored using the STM32 debugger.
 
