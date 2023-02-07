@@ -44,7 +44,7 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407VG_PCA21125_SPI_R
  ### Use PCA21125 Driver instruction
 1. Define your RTC_Data *_RTC_R_DATA* and *RTC_Data _RTC_W_DATA* variables to be used to Set and Store the readings.
 
-2. Initialize the PCA21125RTC driver using: *PCA21125RTC_Init(SPI_HandleTypeDef *hspi, ITStatus INT_Status)
+2. Initialize the PCA21125RTC driver using: _PCA21125RTC_Init(SPI_HandleTypeDef *hspi, ITStatus INT_Status)_
 
 	Parameters:
    | hspi | INT_Status |
