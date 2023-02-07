@@ -57,8 +57,12 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407VG_PCA21125_SPI_R
 
 _NOTE: The PCA21125RTC readings in this project can be monitored using the STM32 debugger.
 
-## Credits
-This driver is based on the generated code by the SysConfig tool for the TI Sensors. It can be found [here](https://www.ti.com/tool/SYSCONFIG).
+## Contributing
+Contributions are welcome in the form of bug reports, feature requests, or pull requests. If you would like to contribute to the project, please fork this repository, make your changes, and submit a pull request.
 
 ## License
 This driver is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+[PCA21125 datasheet](https://www.nxp.com/docs/en/data-sheet/PCA21125.pdf).
+[STM32F407 datasheet](https://www.st.com/resource/en/datasheet/stm32f407vg.pdf).
