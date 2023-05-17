@@ -2,7 +2,7 @@
  * PCA21125.h
  *
  *  Created on: Aug 31, 2022
- *      Author: Mahmoud
+ *      Author: Mahmoud A. Sharabati
  */
 
 #ifndef PCA21125_H_
