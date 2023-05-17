@@ -2,7 +2,7 @@
  * PCA21125.c
  *
  *  Created on: Aug 31, 2022
- *      Author: Mahmoud
+ *      Author: Mahmoud A. Sharabati
  */
 
 #include "PCA21125.h"
